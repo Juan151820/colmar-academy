@@ -1,6 +1,7 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
+    
 }
  /* HEADER */
 .flex-container {
@@ -109,13 +110,11 @@ nav a {
 
 .information-right {
     display: block;
-    align-items: center;
-    width: 40%;
+    width: 480px;
     margin-left: 0;
     float: right;
-    text-align: left;
-    
-    
+    position: relative; 
+    bottom: 740px;   
 }
 
 .information-right img {
@@ -132,14 +131,76 @@ nav a {
 
 }
 
-.information-right h3, p {
-    width: 35%;
-    text-align: left;
-    display: inline-flex;
-    clear: right;
+.item {
+    height: 225px;
+}
+
+.item-text {
+    display: block;
+    padding-right: 8px;
+}
+
+.information-right .item h3 {
+    display: block;
     padding-bottom: 8px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.information-right .item p {
+    display: block;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    font-size: 14px;
+}
+
+.information-right .item a {
+    display: block;
+    text-decoration: none;
+    padding-top: 8px;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 #lecture {
     background-color: lightgray;
 }
+ /* START LEARNING */
+
+#start-learning {
+    display: inline-block;
+    justify-content: center;
+    background-color: lightgray;
+    height: 850px;
+    width: 1200px;
+    padding: 32px 72px;
+    position: relative; 
+    bottom: 740px;  
+} 
+
+#start-learning h1 {
+    text-align: center;
+}
+.flex-container-start {
+    padding: 16px 56px;
+}
+
+.flex-container-start .start {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+.start {
+    margin: 16px 16px;
+    background-color: white;
+    width: 290px;
+    height: 320px;
+    
+}
+
+.flex-container-start .start img {
+    width: 100%;
+    height: auto;
+}
+
+

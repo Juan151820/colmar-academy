@@ -1,8 +1,9 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
-    
+             
 }
+
  /* HEADER */
 .flex-container {
     display: flex;
@@ -297,5 +298,30 @@ nav a {
 #fisma {
     background-color: lightgray;
     padding-bottom: 0;
+}
+
+ /* FOOTER */
+footer {
+    background-color: #EEE;
+    height: 95px;
+    width: 100%;
+    position: relative;
+    bottom: 775px;
+    
+} 
+
+footer p {
+    padding-top: 16px;
+    padding-left: 24px;
+    display: inline-block;
+}
+
+footer .privacy {
+    align-items: right;
+    justify-content: right;
+    float: right; 
+    position: relative;   
+    bottom: 72px;
+    left: 450px; 
 }
 

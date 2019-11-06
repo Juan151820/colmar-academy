@@ -1,7 +1,14 @@
+html {
+    height: 3300px;
+    width: 1349px;
+}
+
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
-             
+    height: 3200px;
+               
 }
 
  /* HEADER */
@@ -215,6 +222,11 @@ nav a {
 .flex-container-start .start img {
     width: 100%;
     height: auto;
+}
+
+#art {
+    position: relative;
+    top: 18px;
 }
 
  /* THESIS EXHIBIT SECTION */

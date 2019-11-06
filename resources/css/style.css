@@ -1,13 +1,15 @@
 html {
     height: 3300px;
     width: 1349px;
+    font-size: 16px;
+    
 }
 
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
-    height: 3200px;
+    height: 200rem;
                
 }
 
@@ -16,35 +18,35 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding-left: 24px;
+    padding-left: 1.5rem;
     
 }
 header {
     width: 100%;
     background-color: white;
-    height: 64px;
+    height: 4rem;
     position: top;
     align-items: center;
 }
 
 header img {
-    height: 32px;
+    height: 2rem;
           
 }
 
 nav {
     text-align: right;
     flex-grow: 1;
-    margin-right: 24px;
+    margin-right: 1.5rem;
 }
 
 nav span {
-    padding-right: 16px;
+    padding-right: 1rem;
 }
 
 nav a {
     color: black;
-    font-size: 22px;
+    font-size: 1.375rem;
     text-decoration: none;
     letter-spacing: 0px;
 }
@@ -62,7 +64,7 @@ nav a {
 .learn--something img {
     width: 60%;
     display: block;
-    padding: 32px 24px;
+    padding: 2rem 1.5rem;
 } 
 
 .text-btn-banner {
@@ -72,7 +74,7 @@ nav a {
     width: 40%;
     margin-left: 0;
     color: #333;
-    padding-right: 150px;
+    padding-right: 9.375rem;
     font-weight: 600;
 }
 
@@ -80,9 +82,9 @@ nav a {
     background-color: #333;
     color: #fff;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 1rem;
     letter-spacing: 1.3px;
-    padding: 8px 110px;
+    padding: 0.5rem 6.875rem;
     text-decoration: none;
 }
 
@@ -98,48 +100,48 @@ nav a {
 .information img {
     width: 60%;
     display: block;
-    padding: 32px 24px;
+    padding: 2rem 1.5rem;
 }
 
 .information .information-main {
     text-align: left;
     display: flex;
     justify-content: left;
-    width: 712px;
+    width: 44.5rem;
 }
 
 .information h1 {
-    padding-left: 24px;
-    padding-bottom: 24px;
+    padding-left: 1.5rem;
+    padding-bottom: 1.5rem;
 }
  .information p {
-    padding: 0 24px;
+    padding: 0 1.5rem;
     text-align: justify;
-    width: 712px;
+    width: 44.5rem;
 }
 
 .hiring {
-    padding: 16px;
-    height: 74px;    
+    padding: 1rem;
+    height: 4.625rem;    
 }
 
 .hiring p {
-    padding-bottom: 16px;
+    padding-bottom: 1rem;
 }
 
 .information-right {
     display: block;
-    width: 480px;
+    width: 30rem;
     margin-left: 0;
     float: right;
     position: relative; 
-    bottom: 795px;   
+    bottom: 49.6875rem;   
 }
 
 .information-right img {
     width: 35%;
     display: inline-block;
-    padding: 16px 16px;
+    padding: 1rem 1rem;
     
 }
 
@@ -151,33 +153,33 @@ nav a {
 }
 
 .item {
-    height: 235px;
+    height: 14.6875rem;
 }
 
 .item-text {
     display: block;
-    padding-right: 8px;
+    padding-right: 0.5rem;
 }
 
 .information-right .item h3 {
     display: block;
-    padding-bottom: 8px;
-    padding-top: 20px;
-    font-size: 20px;
+    padding-bottom: 0.5rem;
+    padding-top: 1.25rem;
+    font-size: 1.25rem;
 }
 
 .information-right .item p {
     display: block;
-    padding-bottom: 8px;
-    padding-top: 8px;
-    font-size: 14px;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    font-size: 0.875rem;
 }
 
 .information-right .item a {
     display: block;
     text-decoration: none;
-    padding-top: 8px;
-    font-size: 14px;
+    padding-top: 0.5rem;
+    font-size: 0.875rem;
     font-weight: bold;
 }
 
@@ -190,11 +192,11 @@ nav a {
     display: inline-block;
     justify-content: center;
     background-color: lightgray;
-    height: 873px;
-    width: 1205px;
-    padding: 32px 72px;
+    height: 54.5625rem;
+    width: 75.3125rem;
+    padding: 2rem 4.5rem;
     position: relative; 
-    bottom: 730px; 
+    bottom: 45.625rem; 
      
 } 
 
@@ -202,7 +204,7 @@ nav a {
     text-align: center;
 }
 .flex-container-start {
-    padding: 16px 56px 32px 56px;
+    padding: 1rem 3.5rem 2rem 3.5rem;
 }
 
 .flex-container-start .start {
@@ -211,11 +213,11 @@ nav a {
     align-items: center;
 }
 .start {
-    margin: 16px 16px;
+    margin: 1rem 1rem;
     background-color: white;
-    width: 290px;
-    height: 320px;
-    padding: 16px;
+    width: 18.125rem;
+    height: 20rem;
+    padding: 1rem;
     
 }
 
@@ -226,7 +228,7 @@ nav a {
 
 #art {
     position: relative;
-    top: 18px;
+    top: 1.125rem;
 }
 
  /* THESIS EXHIBIT SECTION */
@@ -234,20 +236,20 @@ nav a {
 .thesis-exhibit {
     background-color: #EEE;
     position: relative;
-    bottom: 755px;
-    height: 780px;
+    bottom: 47.1875rem;
+    height: 48.75rem;
 } 
 
 .thesis-exhibit h1 {
     text-align: center;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     
 }
 
 .thesis-exhibit video {
     width: 60%;
-    padding: 0 24px 24px 24px;
+    padding: 0 1.5rem 1.5rem 1.5rem;
     display: block;
 }
 
@@ -255,7 +257,7 @@ nav a {
     display: block;
     float: left;
     width: 60%;
-    padding-left: 24px;
+    padding-left: 1.5rem;
 }
 
 .thesis-text-left h2 {
@@ -264,17 +266,17 @@ nav a {
 
 .thesis-right {
     display: block;
-    width: 480px;
+    width: 30rem;
     margin-left: 0;
     float: right;
     position: relative; 
-    bottom: 480px;
+    bottom: 30rem;
 }
 
 .thesis-right img {
     display: inline-block;
     width: 35%;
-    padding: 16px 16px;
+    padding: 1rem 1rem;
 }
 
 .thesis-text-right {
@@ -282,19 +284,19 @@ nav a {
     float: right;
     width: 65%;
     position: relative;
-    bottom: 170px;
-    left: 32px;
+    bottom: 10.625rem;
+    left: 2rem;
 }
 
 .item-thesis {
-    height: 235px;
+    height: 14.6875rem;
     display: block;
     justify-content: center;
 }
 
 .thesis-right h3 {
     display: block;
-    width: 280px;
+    width: 17.5rem;
        
 }
 
@@ -305,7 +307,7 @@ nav a {
 }
 
 .thesis-right .item-thesis .thesis-text-right p {
-    width: 280px;
+    width: 17.5rem;
 }
 #fisma {
     background-color: lightgray;
@@ -315,16 +317,16 @@ nav a {
  /* FOOTER */
 footer {
     background-color: #EEE;
-    height: 95px;
+    height: 5.9375rem;
     width: 100%;
     position: relative;
-    bottom: 775px;
+    bottom: 48.4375rem;
     
 } 
 
 footer p {
-    padding-top: 16px;
-    padding-left: 24px;
+    padding-top: 1rem;
+    padding-left: 1.5rem;
     display: inline-block;
 }
 
@@ -333,7 +335,7 @@ footer .privacy {
     justify-content: right;
     float: right; 
     position: relative;   
-    bottom: 72px;
-    left: 450px; 
+    bottom: 4.5rem;
+    left: 28.125rem; 
 }
 

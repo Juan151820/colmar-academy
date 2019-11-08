@@ -1,16 +1,17 @@
 html {
-    height: 3300px;
+    height: 3100px;
     width: 1349px;
-    font-size: 16px;
-    
+    font-size: 16px;    
 }
-
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
-    height: 200rem;
-               
+    height: 186rem;               
+}
+
+.main {
+    height: 185rem;
 }
 
  /* HEADER */
@@ -18,8 +19,7 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding-left: 1.5rem;
-    
+    padding-left: 1.5rem;    
 }
 
 header {
@@ -60,7 +60,6 @@ nav a {
 @media only screen and (max-width: 720px){
     .flex-container {
         width: 100%;
-
     }
 }
 
@@ -68,17 +67,16 @@ nav a {
     header .mobile {
         width: 100%;
         background-color: white;
-        height: 6rem;
+        height: 7rem;
         position: top;
         z-index: 1;
-        }
-    
+        }    
 }
 
 @media only screen and (max-width: 720px){
     header .mobile img {
-        height: 3.5rem;
-        width: 3.5rem;
+        height: 5rem;
+        width: 5rem;
     }
 }
 
@@ -92,24 +90,17 @@ nav a {
 
 @media only screen and (max-width: 720px) {
     ul {
-        padding: 0;
-             
+        padding: 0;             
     }
 }
 
 @media only screen and (max-width: 720px) {
     nav {
         text-align: center; 
-        align-items: center; 
-           
+        align-items: center;            
     }
 }
-@media only screen and (max-width: 720px) {
-    .mobile {
-        width: 1200px;
-           
-    }
-}
+
 
 @media only screen and (max-width: 720px) {
     header .desktop, header #logo-desktop, header #logo2-desktop {
@@ -118,15 +109,14 @@ nav a {
 }
 
  /* BANNER */
-
 .learn--something{
     background-color: lightgray;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-
 } 
+
 .learn--something img {
     width: 60%;
     display: block;
@@ -152,6 +142,7 @@ nav a {
     letter-spacing: 1.3px;
     padding: 0.5rem 6.875rem;
     text-decoration: none;
+    border-radius: 0.5rem;
 }
 
 @media only screen and (max-width: 720px) {
@@ -159,19 +150,19 @@ nav a {
         display: block; 
         align-items: center;
         position: relative;
-        top: 2rem;
+        top: 3rem;
         padding-top: 0;
-        margin-top: 0;
-             
+        margin-top: 0;             
     }
 }
 
 @media only screen and (max-width: 720px) {
     .btn-main {
         font-weight: 400;
-        font-size: 2rem;
-        padding: 0.5rem 10.875rem;
-
+        font-size: 4rem;
+        padding: 1.5rem 18.875rem;
+        background-color: gray;
+        margin-bottom: 1.5rem;
     }
 }
 
@@ -189,24 +180,25 @@ nav a {
     .text-btn-banner {
         align-items: center;
         display: block;
-        font-size: 1.5rem;
+        font-size: 4rem;
         padding: 2rem 1rem;
         justify-content: center;
         text-align: center;
-        width: 100%;
-        
+        width: 100%;        
     }
-
 }
 
+@media only screen and (max-width: 720px) {
+    .text-banner {
+        margin-bottom: 1.5rem;
+    }
+}
 
  /* INFORMATION */
-
 .information {
     background-color: #EEE;
     height: auto;
-    z-index: 1;
-        
+    z-index: 1;        
 }
 
 .information img {
@@ -217,7 +209,7 @@ nav a {
 
 .information .information-main {
     text-align: left;
-    display: flex;
+    display: block;
     justify-content: left;
     width: 44.5rem;
 }
@@ -226,6 +218,7 @@ nav a {
     padding-left: 1.5rem;
     padding-bottom: 1.5rem;
 }
+
  .information p {
     padding: 0 1.5rem;
     text-align: justify;
@@ -243,25 +236,24 @@ nav a {
 
 .information-right {
     display: block;
-    width: 30rem;
+    width: 15rem;
     margin-left: 0;
     float: right;
     position: relative; 
-    bottom: 49.6875rem;   
+    bottom: 49.6875rem;
+    right: 15.6875rem;   
 }
 
 .information-right img {
     width: 35%;
     display: inline-block;
-    padding: 1rem 1rem;
-    
+    padding: 1rem 1rem;    
 }
 
 .information-right .item {
     display: inline-flex;
     text-align: left;
-    justify-content: left;   
-
+    justify-content: left; 
 }
 
 .item {
@@ -271,6 +263,7 @@ nav a {
 .item-text {
     display: block;
     padding-right: 0.5rem;
+    width: 28.1rem;
 }
 
 .information-right .item h3 {
@@ -278,13 +271,16 @@ nav a {
     padding-bottom: 0.5rem;
     padding-top: 1.25rem;
     font-size: 1.25rem;
+    width: 16.25rem;
 }
 
 .information-right .item p {
     display: block;
     padding-bottom: 0.5rem;
     padding-top: 0.5rem;
+    padding-left: 0;
     font-size: 0.875rem;
+    width: 16.25rem;
 }
 
 .information-right .item a {
@@ -293,16 +289,14 @@ nav a {
     padding-top: 0.5rem;
     font-size: 0.875rem;
     font-weight: bold;
+    width: 16.25rem;
 }
 
 #lecture {
     background-color: lightgray;
 }
 
-
-
  /* START LEARNING */
-
 #start-learning {
     display: inline-block;
     justify-content: center;
@@ -311,13 +305,13 @@ nav a {
     width: 75.3125rem;
     padding: 2rem 4.5rem;
     position: relative; 
-    bottom: 45.625rem; 
-     
+    bottom: 45.625rem;      
 } 
 
 #start-learning h1 {
     text-align: center;
 }
+
 .flex-container-start {
     padding: 1rem 3.5rem 2rem 3.5rem;
 }
@@ -327,13 +321,13 @@ nav a {
     justify-content: center;
     align-items: center;
 }
+
 .start {
     margin: 1rem 1rem;
     background-color: white;
     width: 18.125rem;
     height: 20rem;
-    padding: 1rem;
-    
+    padding: 1rem;    
 }
 
 .flex-container-start .start img {
@@ -347,7 +341,6 @@ nav a {
 }
 
  /* THESIS EXHIBIT SECTION */
-
 .thesis-exhibit {
     background-color: #EEE;
     position: relative;
@@ -358,8 +351,7 @@ nav a {
 .thesis-exhibit h1 {
     text-align: center;
     padding-top: 2rem;
-    padding-bottom: 2rem;
-    
+    padding-bottom: 2rem;    
 }
 
 .thesis-exhibit video {
@@ -409,24 +401,29 @@ nav a {
     justify-content: center;
 }
 
+#now-then {
+    position: relative;
+    bottom: 6rem;
+}
+
 .thesis-right h3 {
     display: block;
-    width: 17.5rem;
-       
+    width: 17.5rem;       
 }
 
 .thesis-right .item-thesis {
     text-align: left;
     justify-content: left;
-
 }
 
 .thesis-right .item-thesis .thesis-text-right p {
     width: 17.5rem;
 }
+
 #fisma {
     background-color: lightgray;
     padding-bottom: 0;
+    width: 29rem;
 }
 
  /* FOOTER */
@@ -435,8 +432,8 @@ footer {
     height: 5.9375rem;
     width: 100%;
     position: relative;
-    bottom: 48.4375rem;
-    
+    top: 11rem;
+    overflow: hidden;    
 } 
 
 footer p {
@@ -445,12 +442,19 @@ footer p {
     display: inline-block;
 }
 
+footer .right-privacy {
+    color: black;
+    display: inline-block;
+    position: relative;
+    bottom: 4.1rem;
+    left: 45rem;
+}
+
 footer .privacy {
     align-items: right;
     justify-content: right;
     float: right; 
     position: relative;   
-    bottom: 4.5rem;
     left: 28.125rem; 
 }
 
